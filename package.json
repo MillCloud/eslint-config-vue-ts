@@ -1,0 +1,43 @@
+{
+  "name": "@modyqyw/eslint-config-vue-ts",
+  "version": "1.0.0",
+  "description": "An ESLint shareable config for vue and typescript.",
+  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "vue",
+    "typescript"
+  ],
+  "author": "ModyQyW <wurui7@mail3.sysu.edu.cn>",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Millcloud/eslint-config-vue-ts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Millcloud/eslint-config-vue-ts/issues"
+  },
+  "homepage": "https://github.com/Millcloud/eslint-config-vue-ts#readme",
+  "peerDependencies": {
+    "eslint": "~6.8.0",
+    "typescript": "~3.8.0",
+    "vue": "~2.6.0",
+    "vue-property-decorator": "~8.4.0"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.31.0",
+    "@typescript-eslint/parser": "^2.31.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "typescript": "^3.8.3",
+    "vue-eslint-parser": "^7.0.0",
+    "vue-property-decorator": "^8.4.2"
+  },
+  "engines": {
+    "node": ">=10",
+    "npm": ">=6"
+  }
+}
