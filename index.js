@@ -8,16 +8,18 @@ module.exports = {
     uni: "readonly",
     plus: "readonly",
   },
-  parser: "vue-eslint-parser",
+  plugins: ["@typescript-eslint"],
   parserOptions: {
     parser: "@typescript-eslint/parser",
     extraFileExtensions: [".vue"],
+    ecmaVersion: 2020,
     ecmaFeatures: {
       jsx: true,
     },
   },
-  plugins: ["@typescript-eslint"],
+  parser: "vue-eslint-parser",
   extends: [
+    "eslint:recommended",
     "plugin:vue/recommended",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
