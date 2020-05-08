@@ -25,6 +25,7 @@ module.exports = {
     "plugin:@typescript-eslint/recommended",
   ],
   rules: {
+    'comma-dangle': ['error', 'always-multiline'],
     "no-console":
       process.env.NODE_ENV === "production" ||
       process.env.NODE_ENV === "pre-production" ||
@@ -44,6 +45,12 @@ module.exports = {
         ? "warn"
         : "off",
     "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/semi": ["error", "always"],
+    "@typescript-eslint/space-before-function-paren": ["error", {
+      anonymous: 'always',
+      named: 'never',
+      asyncArrow: 'always',
+    }],
   },
   overrides: [
     {
