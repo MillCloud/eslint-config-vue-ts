@@ -1,6 +1,6 @@
 {
   "name": "@modyqyw/eslint-config-vue-ts",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "An ESLint shareable config for vue and typescript.",
   "main": "index.js",
   "keywords": [
