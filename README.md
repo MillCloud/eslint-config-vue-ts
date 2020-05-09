@@ -95,4 +95,4 @@ module.exports = {
 
 [MIT](./LICENSE)
 
-Copyright (c) 2019-present ModyQyW
+Copyright (c) 2020-present Millcloud
