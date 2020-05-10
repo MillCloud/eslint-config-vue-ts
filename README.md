@@ -33,7 +33,7 @@ module.exports = {
   - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
   - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
   - [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
-- Set up `Settings.json`. Then `F1` => `Format Document`(call vetur for `*.vue` files and prettier for other files) => Save File(call ESLint).
+- Set up `Settings.json`. Then `F1 => Format Document` => `F1 => File: Save`.
 
 ```json
 {
