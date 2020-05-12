@@ -59,7 +59,7 @@ module.exports = {
     "@typescript-eslint/quotes": [
       "error",
       "double",
-      { allowTemplateLiterals: false },
+      { avoidEscape: true, allowTemplateLiterals: false },
     ],
     // override eslint-config-standard and follow prettier default options
     semi: "off",
