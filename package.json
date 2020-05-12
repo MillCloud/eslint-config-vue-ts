@@ -1,6 +1,6 @@
 {
   "name": "@modyqyw/eslint-config-vue-ts",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "An ESLint shareable config for vue with typescript. Also support uni-app.",
   "keywords": [
     "eslint",
