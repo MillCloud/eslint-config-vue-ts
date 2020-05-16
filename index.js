@@ -24,8 +24,9 @@ module.exports = {
     node: true,
   },
   globals: {
-    uni: "readonly",
     plus: "readonly",
+    uni: "readonly",
+    weex: "readonly",
   },
   rules: {
     // for projects developing
