@@ -1,6 +1,6 @@
 # @modyqyw/eslint-config-vue-ts
 
-An ESLint shareable config for vue with typescript. Also support uni-app.
+An ESLint shareable config for vue with typescript. Also support uni-app and weex.
 
 ## Usage
 
