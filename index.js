@@ -11,11 +11,9 @@ module.exports = {
   },
   plugins: ["@typescript-eslint"],
   extends: [
-    "eslint:recommended",
-    "airbnb-base",
-    "plugin:vue/recommended",
-    "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
+    "airbnb-typescript/base",
+    "plugin:vue/recommended",
   ],
   env: {
     browser: true,
@@ -30,7 +28,6 @@ module.exports = {
     weex: "readonly",
   },
   rules: {
-    "@typescript-eslint/explicit-function-return-type": "off",
     "no-console":
       process.env.NODE_ENV === "production" ||
       process.env.NODE_ENV === "pre-production" ||
@@ -44,6 +41,7 @@ module.exports = {
         ? "warn"
         : "off",
     "no-unused-vars": "off",
+    "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/no-unused-vars":
       process.env.NODE_ENV === "production" ||
       process.env.NODE_ENV === "pre-production" ||
@@ -55,8 +53,8 @@ module.exports = {
     {
       files: ["*.ts", "*.tsx"],
       rules: {
-        "@typescript-eslint/no-unused-vars": "off"
-      }
+        "@typescript-eslint/no-unused-vars": "off",
+      },
     },
     {
       files: ["shims-tsx.d.ts"],
