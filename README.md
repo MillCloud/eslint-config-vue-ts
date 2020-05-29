@@ -60,14 +60,15 @@ module.exports = {
     "*.js": "javascriptreact",
     "*.ts": "typescriptreact",
     "*.wxml": "html",
-    "*.wxs": "javascript",
+    "*.wxs": "javascriptreact",
     "*.wxss": "css",
     "*.axml": "html",
-    "*.sjs": "javascript",
+    "*.sjs": "javascriptreact",
     "*.acss": "css",
     "*.wpy": "html",
     "*.json": "jsonc",
-    "*.nvue": "vue"
+    "*.nvue": "vue",
+    "*.ux": "vue"
   },
   "[vue]": {
     "editor.defaultFormatter": "octref.vetur"
