@@ -39,6 +39,17 @@ module.exports = {
       process.env.NODE_ENV === 'staging'
         ? 'warn'
         : 'off',
+    'no-param-reassign': [
+      'error',
+      {
+        props: true,
+        ignorePropertyModificationsFor: [
+          'state', // for vuex state
+          'acc', // for reduce accumulators
+          'e', // for e.returnvalue
+        ],
+      },
+    ],
     'no-unused-vars': 'off',
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/no-unused-vars':
@@ -64,4 +75,15 @@ module.exports = {
       },
     },
   ],
+  settings: {
+    'import/extensions': ['.js', '.jsx', '.mjs', '.ts', '.tsx'],
+    'import/resolver': {
+      // https://github.com/benmosher/eslint-plugin-import/issues/1396
+      [require.resolve('eslint-import-resolver-node')]: {},
+      [require.resolve('eslint-import-resolver-webpack')]: {
+        config: require.resolve('@vue/cli-service/webpack.config.js'),
+      },
+    },
+    
+  },
 };
