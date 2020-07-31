@@ -7,15 +7,15 @@ An ESLint shareable config for vue with typescript. Also support uni-app and wee
 - Install the config.
 
 ```sh
-npm i vue@~2.6.0 vue-property-decorator@～8.4.0
-npm i eslint@~6.8.0 typescript@～3.9.0 @modyqyw/eslint-config-vue-ts@~1.5.0 -D
+npm i vue@~2.6.0 vue-property-decorator@~8.4.0
+npm i eslint@~6.8.0 typescript@~3.9.0 @modyqyw/eslint-config-vue-ts@~1.5.0 -D
 ```
 
 For yarn, run scripts below.
 
 ```sh
-yarn add vue@~2.6.0 vue-property-decorator@～8.4.0
-yarn add eslint@~6.8.0 typescript@～3.9.0 @modyqyw/eslint-config-vue-ts@~1.5.0 -D
+yarn add vue@~2.6.0 vue-property-decorator@~8.4.0
+yarn add eslint@~6.8.0 typescript@~3.9.0 @modyqyw/eslint-config-vue-ts@~1.5.0 -D
 ```
 
 - Set up.
@@ -44,7 +44,8 @@ module.exports = {
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
     "typescript": "typescriptreact",
-    "json": "jsonc"
+    "json": "jsonc",
+    "vue-html": "html"
   },
   "eslint.validate": [
     "javascript",
@@ -65,7 +66,12 @@ module.exports = {
     "*.axml": "html",
     "*.sjs": "javascriptreact",
     "*.acss": "css",
-    "*.wpy": "html",
+    "*.swan": "html",
+    "*.ttml": "html",
+    "*.ttss": "css",
+    "*.jxml": "html",
+    "*.jxss": "css",
+    "*.wpy": "vue",
     "*.json": "jsonc",
     "*.nvue": "vue",
     "*.ux": "vue"

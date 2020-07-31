@@ -84,6 +84,5 @@ module.exports = {
         config: require.resolve('@vue/cli-service/webpack.config.js'),
       },
     },
-    
   },
 };
