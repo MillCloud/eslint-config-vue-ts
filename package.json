@@ -1,6 +1,6 @@
 {
   "name": "@modyqyw/eslint-config-vue-ts",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "description": "An ESLint shareable config for vue with typescript. Also support uni-app and weex.",
   "keywords": [
     "eslint",
@@ -24,27 +24,27 @@
     "url": "git+https://github.com/MillCloud/eslint-config-vue-ts.git"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "~3.7.0",
-    "@typescript-eslint/parser": "~3.7.0",
+    "@typescript-eslint/eslint-plugin": "~3.10.0",
+    "@typescript-eslint/parser": "~3.10.0",
     "eslint-config-airbnb-typescript": "~9.0.0",
     "eslint-import-resolver-node": "~0.3.0",
     "eslint-import-resolver-webpack": "~0.12.0",
     "eslint-plugin-import": "~2.22.0",
     "eslint-plugin-vue": "next",
-    "typescript": "~3.9.0",
+    "typescript": "~4.0.0",
     "vue-class-component": "~7.2.0",
     "vue-eslint-parser": "~7.1.0",
     "vue-property-decorator": "~9.0.0"
   },
   "devDependencies": {
-    "@modyqyw/prettier-config": "~1.0.0",
+    "@modyqyw/prettier-config": "~1.1.0",
     "babel-eslint": "~10.1.0",
-    "eslint": "~7.5.0",
-    "prettier": "~2.0.0"
+    "eslint": "~7.7.0",
+    "prettier": "~2.1.0"
   },
   "peerDependencies": {
-    "eslint": "^6.8.0 || ^7.0.0",
-    "typescript": "~3.9.0",
+    "eslint": "^6.8.0 || ^7.7.0",
+    "typescript": "~4.0.0",
     "vue": "~2.6.0",
     "vue-class-component": "~7.2.0",
     "vue-property-decorator": "~9.0.0"
