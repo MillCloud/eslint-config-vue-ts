@@ -18,6 +18,8 @@ yarn add vue@~2.6.0 vue-property-decorator@~9.0.0
 yarn add eslint@~7.9.0 typescript@~4.0.0 @modyqyw/eslint-config-vue-ts@~1.7.0 -D
 ```
 
+- Add `tsconfig.json` into the project root if you use typescript. Check [Intro to the TSConfig Reference](https://www.typescriptlang.org/tsconfig).
+
 - Set up.
 
 ```js
