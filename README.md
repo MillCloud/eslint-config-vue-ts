@@ -8,14 +8,14 @@ An ESLint shareable config for vue with typescript. Also support uni-app and wee
 
 ```sh
 npm i vue@~2.6.0 vue-property-decorator@~9.0.0
-npm i -D eslint@~7.10.0 typescript@~4.0.0 @modyqyw/eslint-config-vue-ts@~1.7.0
+npm i -D eslint@~7.10.0 typescript@~4.0.0 @modyqyw/eslint-config-vue-ts@~1.8.0
 ```
 
 For yarn, run scripts below.
 
 ```sh
 yarn add vue@~2.6.0 vue-property-decorator@~9.0.0
-yarn add -D eslint@~7.10.0 typescript@~4.0.0 @modyqyw/eslint-config-vue-ts@~1.7.0
+yarn add -D eslint@~7.10.0 typescript@~4.0.0 @modyqyw/eslint-config-vue-ts@~1.8.0
 ```
 
 - Add `tsconfig.json` into the project root if you use typescript. Check [Intro to the TSConfig Reference](https://www.typescriptlang.org/tsconfig).
