@@ -1,3 +1,5 @@
+**DEPRECATED! Check [@modyqyw/eslint-config-vue](https://github.com/MillCloud/eslint-config-vue).**
+
 # @modyqyw/eslint-config-vue-ts
 
 An ESLint shareable config for vue with typescript. Also support uni-app and weex.
